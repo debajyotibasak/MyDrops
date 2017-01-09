@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyDrops</string>
+    <string name="str_add_drop">ADD DROP</string>
 </resources>
