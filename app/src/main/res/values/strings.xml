@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MyDrops</string>
     <string name="str_add_drop">ADD DROP</string>
+    <string name="event_name_dialog">Event Name</string>
+    <string name="hint_drop">What is it?</string>
 </resources>
