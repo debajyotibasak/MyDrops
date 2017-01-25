@@ -3,4 +3,15 @@
     <string name="str_add_drop">ADD DROP</string>
     <string name="event_name_dialog">Event Name</string>
     <string name="hint_drop">What is it?</string>
+    <string name="action_add">Add</string>
+    <string name="action_most_time_left">Most Time Left</string>
+    <string name="action_least_time_left">Least Time Left</string>
+    <string name="action_complete">Complete</string>
+    <string name="action_incomplete">Incomplete</string>
+    <string name="no_drops_to_display">No Drops to Display</string>
+    <string name="action_none">None</string>
+    <string name="san_serif">sans-serif</string>
+    <string name="notif_title">Achievement</string>
+    <string name="notif_message">You are about to complete your Drop</string>
+    <string name="notif_long_message">Congratulations, you are about to complete your Goal</string>
 </resources>

@@ -1,11 +1,39 @@
 <resources>
 
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    <style name="AppTheme" parent="AppTheme.Base">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="DatePickerItemStyle">
+        <item name="android:layout_width">@dimen/bucket_picker_item_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/bg_picker_item</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:drawableBottom">@drawable/down_normal</item>
+        <item name="android:drawableTop">@drawable/up_normal</item>
+        <item name="android:drawablePadding">@dimen/bucket_picker_drawable_padding</item>
     </style>
 
 </resources>
