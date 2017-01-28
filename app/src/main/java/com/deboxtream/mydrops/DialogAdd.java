@@ -44,8 +44,6 @@ public class DialogAdd extends DialogFragment {
         }
     };
 
-
-    //TODO Add Date
     private void addAction() {
         //get the value of the 'goal'
         //get the time it was added.

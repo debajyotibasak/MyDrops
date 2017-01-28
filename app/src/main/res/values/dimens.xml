@@ -4,22 +4,34 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="textSize_Regular">24sp</dimen>
     <dimen name="textSize_Small">18sp</dimen>
+
+
+    <!--Dimensions of Buttons-->
     <dimen name="btn_padding_Left">60dp</dimen>
     <dimen name="btn_padding_right">60dp</dimen>
     <dimen name="btn_padding_top">8dp</dimen>
     <dimen name="btn_padding_bottom">8dp</dimen>
+
+    <!--Dimensions of Logo-->
     <dimen name="btn_logo_width">192dp</dimen>
     <dimen name="btn_logo_height">192dp</dimen>
     <dimen name="btn_logo_margin">84dp</dimen>
+
+    <!--Background of Button in the empty_drops inside activity_main.xml-->
     <dimen name="btn_corner_radius">2dp</dimen>
     <dimen name="btn_stroke_width">1dp</dimen>
+
     <dimen name="dialog_title_margin_top">36dp</dimen>
     <dimen name="dialog_title_margin_bottom">36dp</dimen>
     <dimen name="dialog_title_text_size">18sp</dimen>
-    <dimen name="row_drop_size">18sp</dimen>
-    <dimen name="row_text_size">18sp</dimen>
+    <dimen name="row_drop_size">14sp</dimen>
+    <dimen name="row_text_size">14sp</dimen>
     <dimen name="row_padding">22dp</dimen>
+
+    <!--Elevation in the empty_drops inside activity_main.xml-->
     <dimen name="elevation_elements">10dp</dimen>
+
+
     <dimen name="corner_radius_date_picker">4dp</dimen>
     <dimen name="bucket_picker_space">10dp</dimen>
     <dimen name="bucket_picker_drawable_padding">16dp</dimen>
